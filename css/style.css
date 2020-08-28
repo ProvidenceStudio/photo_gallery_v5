@@ -1,0 +1,56 @@
+/* ===================================== 
+   Page Styles
+======================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form {
+    display: flex; 
+    justify-content: center; 
+}
+
+input[type="search"] {
+    border: none; 
+    border-radius: 3px; 
+    padding: 15px; 
+    width: 40%;
+    border: 1px solid #cccccc; 
+    margin: 20px; 
+}
+
+/* ===================================== 
+   Grid & Layout Styles
+======================================== */
+ 
+.gallery {
+    margin: auto; 
+    width: 100%; 
+    max-width: 875px; 
+    display: grid; 
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 25px; 
+}
+
+.thumbnail {
+    display: flex; 
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+}
+
+.photo-big {
+    display: none; 
+}
+
+
+/* ===================================== 
+   Search Box
+======================================== */
+
