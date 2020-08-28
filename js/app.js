@@ -1,3 +1,6 @@
-const search = new Filter('search', 'data-caption');
+baguetteBox.run('.gallery', {
+    animation: "slideIn",
+    buttons: true
+  });
 
-baguetteBox.run('.thumbnail');
+const search = new Filter('search', 'data-caption');

@@ -6,23 +6,19 @@
 	box-sizing: border-box;
 }
 
+header {
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
 body {
     margin-bottom: 0px;
     font-family: 'Montserrat', sans-serif;
 }
 
-form {
-    display: flex; 
-    justify-content: center; 
-}
-
-input[type="search"] {
-    border: none; 
-    border-radius: 3px; 
-    padding: 15px; 
-    width: 40%;
-    border: 1px solid #cccccc; 
-    margin: 20px; 
+footer {
+    text-align: center; 
 }
 
 /* ===================================== 
@@ -45,12 +41,17 @@ input[type="search"] {
     height: 200px;
 }
 
-.photo-big {
-    display: none; 
-}
-
-
 /* ===================================== 
    Search Box
 ======================================== */
 
+
+
+input[type="search"] {
+    border: none; 
+    border-radius: 3px; 
+    padding: 15px; 
+    width: 40%;
+    border: 1px solid #cccccc; 
+    margin: 20px; 
+}
